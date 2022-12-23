@@ -9,15 +9,6 @@ import { listen } from "@tauri-apps/api/event"
 
 const text = ref("");
 
-function onInput(element) {
-    let target = element.target;
-    text.value = target.innerText;
-    element.focus()
-    window.getSelection().selectAllChildren(element)
-    window.getSelection().collapseToEnd()
-}
-
-
 async function save() {
     let res = await invoke("save", { path: "hello.txt", buffer: text.value });
     console.log(res);
