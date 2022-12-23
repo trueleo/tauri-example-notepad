@@ -1,9 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 body,
 #app {
     max-width: none;
     height: 100vh;
+    margin: 0;
+    padding: 0;
 }
