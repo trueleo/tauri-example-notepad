@@ -33,7 +33,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "dev.trueleo.notepad",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
